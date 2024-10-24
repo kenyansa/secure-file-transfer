@@ -5,7 +5,7 @@ import bcrypt from 'bcryptjs';
 // In-memory users database (for demo purposes)
 const users: { username: string; password: string }[] = [];
 
-const JWT_SECRET = 'your_jwt_secret'; // In a real app, store this securely in an environment variable.
+const JWT_SECRET = 'your_jwt_secret';
 
 // Register a new user
 export const registerUser = (req: Request, res: Response) => {
